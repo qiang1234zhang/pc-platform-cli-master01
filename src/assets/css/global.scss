@@ -1,0 +1,14 @@
+$color:#303133;
+$background-color:#227b9d;
+$btn-color:#227b9d;
+@mixin btnColor1 {
+    color: $btn-color;
+    border: 1px solid $btn-color;
+    background: #fff;
+}
+
+@mixin btnColor2 {
+    background: $btn-color;
+    color: #fff;
+    border: 1px solid $btn-color;
+}

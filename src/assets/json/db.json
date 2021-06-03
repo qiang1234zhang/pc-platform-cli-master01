@@ -1,0 +1,1581 @@
+{
+  "comments": [
+    {
+      "a": "a"
+    }
+  ],
+  "channel": {
+    "data": {
+      "list": [
+        {
+          "id": 1,
+          "channelcode": "12345",
+          "channelname": "轻松筹",
+          "value": "轻松筹"
+        },
+        {
+          "id": 2,
+          "channelcode": "12345",
+          "channelname": "支付宝",
+          "value": "支付宝"
+        },
+        {
+          "id": 3,
+          "channelcode": "12345",
+          "channelname": "百度",
+          "value": "百度"
+        },
+        {
+          "id": 4,
+          "channelcode": "12345",
+          "channelname": "微信",
+          "value": "微信"
+        }
+      ]
+    }
+  },
+  "product": {
+    "data": {
+      "list": [
+        {
+          "id": 1,
+          "productcode": "12345",
+          "productname": "投保",
+          "value": "投保"
+        },
+        {
+          "id": 2,
+          "productcode": "12345",
+          "productname": "假阴理赔",
+          "value": "假阴理赔"
+        },
+        {
+          "id": 3,
+          "productcode": "12345",
+          "productname": "案件查询",
+          "value": "案件查询"
+        },
+        {
+          "id": 4,
+          "productcode": "12345",
+          "productname": "华大INMP",
+          "value": "华大INMP"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "userdata": {
+    "data": {
+      "list": [
+        {
+          "id": "1",
+          "account": "2019",
+          "username": "王小虎",
+          "channelname": "上海市普陀区",
+          "phone": "16756656783",
+          "email": "1301398423@qq.com",
+          "role": "管理员",
+          "userstatus": "1"
+        },
+        {
+          "id": "2",
+          "account": "2019",
+          "username": "王小虎",
+          "channelname": "上海市普陀区",
+          "phone": "16756656783",
+          "email": "1301398423@qq.com",
+          "role": "管理员",
+          "userstatus": "0"
+        }
+      ],
+      "total": 100,
+      "pages": 1
+    }
+  },
+  "userdetail": {
+    "params": "{}",
+    "api_s": "pokemon.role",
+    "api_m": "querymenu"
+  },
+  "role": {
+    "data": {
+      "list": [
+        {
+          "id": 1,
+          "rolecode": "12345",
+          "rolename": "轻松筹",
+          "value": "轻松筹",
+          "roleremarks": "角色备注",
+          "menuinfo": [
+            {
+              "menuid": 1,
+              "menuname": "一级 1",
+              "elementinfo": [
+                {
+                  "menuid": 11,
+                  "menuname": "二级 1-1",
+                  "elementinfo": [
+                    {
+                      "menuid": 119,
+                      "menuname": "三级 1-1-1"
+                    },
+                    {
+                      "menuid": 118,
+                      "menuname": "三级 1-1-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "menuid": 2,
+              "menuname": "一级 2",
+              "elementinfo": [
+                {
+                  "menuid": 22,
+                  "menuname": "二级 2-1"
+                },
+                {
+                  "menuid": 23,
+                  "menuname": "二级 2-2"
+                },
+                {
+                  "menuid": 25,
+                  "menuname": "二级 2-3"
+                },
+                {
+                  "menuid": 24,
+                  "menuname": "二级 2-4",
+                  "elementinfo": [
+                    {
+                      "menuid": 241,
+                      "menuname": "三级 1-1-1"
+                    },
+                    {
+                      "menuid": 242,
+                      "menuname": "三级 1-1-2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "checkinfo": [
+            "1",
+            "4",
+            "9",
+            "2",
+            "5"
+          ]
+        },
+        {
+          "id": 2,
+          "rolecode": "12345",
+          "rolename": "支付宝",
+          "value": "支付宝",
+          "roleremarks": "角色备注",
+          "menuinfo": [
+            {
+              "menuid": 1,
+              "menuname": "一级 1",
+              "elementinfo": [
+                {
+                  "menuid": 4,
+                  "menuname": "二级 1-1",
+                  "elementinfo": [
+                    {
+                      "menuid": 9,
+                      "menuname": "三级 1-1-1"
+                    },
+                    {
+                      "menuid": 10,
+                      "menuname": "三级 1-1-2"
+                    },
+                    {
+                      "menuid": 11,
+                      "menuname": "三级 1-1-3"
+                    },
+                    {
+                      "menuid": 12,
+                      "menuname": "三级 1-1-4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "menuid": 2,
+              "menuname": "一级 2",
+              "elementinfo": [
+                {
+                  "menuid": 5,
+                  "menuname": "二级 2-1"
+                },
+                {
+                  "menuid": 6,
+                  "menuname": "二级 2-2"
+                }
+              ]
+            }
+          ],
+          "checkinfo": [
+            "1",
+            "4",
+            "9",
+            "5",
+            "11",
+            "12"
+          ]
+        },
+        {
+          "id": 3,
+          "rolecode": "12345",
+          "rolename": "百度",
+          "value": "百度",
+          "roleremarks": "角色备注",
+          "menuinfo": [
+            {
+              "menuid": 1,
+              "menuname": "一级 1",
+              "elementinfo": [
+                {
+                  "menuid": 4,
+                  "menuname": "二级 1-1",
+                  "elementinfo": [
+                    {
+                      "menuid": 9,
+                      "menuname": "三级 1-1-1"
+                    },
+                    {
+                      "menuid": 10,
+                      "menuname": "三级 1-1-2"
+                    },
+                    {
+                      "menuid": 11,
+                      "menuname": "三级 1-1-3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "menuid": 2,
+              "menuname": "一级 2",
+              "elementinfo": [
+                {
+                  "menuid": 5,
+                  "menuname": "二级 2-1"
+                },
+                {
+                  "menuid": 6,
+                  "menuname": "二级 2-2"
+                }
+              ]
+            }
+          ],
+          "checkinfo": [
+            "1",
+            "4",
+            "9",
+            "5",
+            "11",
+            "12",
+            "10"
+          ]
+        },
+        {
+          "id": 4,
+          "rolecode": "12345",
+          "rolename": "微信",
+          "value": "微信",
+          "roleremarks": "角色备注",
+          "menuinfo": [
+            {
+              "menuid": 1,
+              "menuname": "一级 1",
+              "elementinfo": [
+                {
+                  "menuid": 4,
+                  "menuname": "二级 1-1",
+                  "elementinfo": [
+                    {
+                      "menuid": 9,
+                      "menuname": "三级 1-1-1"
+                    },
+                    {
+                      "menuid": 10,
+                      "menuname": "三级 1-1-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "menuid": 2,
+              "menuname": "一级 2",
+              "elementinfo": [
+                {
+                  "menuid": 5,
+                  "menuname": "二级 2-1"
+                },
+                {
+                  "menuid": 6,
+                  "menuname": "二级 2-2"
+                },
+                {
+                  "menuid": 7,
+                  "menuname": "二级 2-3"
+                }
+              ]
+            }
+          ],
+          "checkinfo": [
+            "1",
+            "4",
+            "9",
+            "11",
+            "12",
+            "10"
+          ]
+        }
+      ]
+    }
+  },
+  "roledata": {
+    "data": {
+      "list": [
+        {
+          "id": 1,
+          "rolecode": "214235436457575",
+          "rolename": "超级管理员",
+          "roleremarks": "只可查看本渠道相关业务信息",
+          "rolestatus": "1",
+          "rolestatusname": "启用",
+          "roleid": "11"
+        },
+        {
+          "id": 2,
+          "rolecode": "214235436457575",
+          "rolename": "渠道用户",
+          "roleremarks": "允许创建用户，修改任何用户密码",
+          "rolestatus": "0",
+          "rolestatusname": "禁用",
+          "roleid": "22"
+        }
+      ],
+      "total": 100,
+      "pages": 1
+    }
+  },
+  "roleChoose": {
+    "data": {
+      "list": {
+        "menuinfo": [
+          {
+            "menuid": 1,
+            "menuname": "一级 1",
+            "elementinfo": [
+              {
+                "menuid": 4,
+                "menuname": "二级 1-1",
+                "elementinfo": [
+                  {
+                    "menuid": 9,
+                    "menuname": "三级 1-1-1"
+                  },
+                  {
+                    "menuid": 10,
+                    "menuname": "三级 1-1-2"
+                  },
+                  {
+                    "menuid": 11,
+                    "menuname": "三级 1-1-3"
+                  },
+                  {
+                    "menuid": 12,
+                    "menuname": "三级 1-1-4"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "menuid": 2,
+            "menuname": "一级 2",
+            "elementinfo": [
+              {
+                "menuid": 5,
+                "menuname": "二级 2-1"
+              },
+              {
+                "menuid": 6,
+                "menuname": "二级 2-2"
+              }
+            ]
+          }
+        ],
+        "checkinfo": [
+          "1",
+          "4",
+          "9",
+          "5",
+          "11",
+          "12"
+        ]
+      }
+    }
+  },
+  "messagedata": {
+    "data": {
+      "list": [
+        {
+          "id": "1",
+          "messagetype": "账单消息",
+          "isinnermail": "Y",
+          "isemail": "N",
+          "ismessage": "Y"
+        },
+        {
+          "id": "2",
+          "messagetype": "批量投保消息",
+          "isinnermail": "Y",
+          "isemail": "Y",
+          "ismessage": "N"
+        },
+        {
+          "id": "3",
+          "messagetype": "假阴理赔消息",
+          "isinnermail": "Y",
+          "isemail": "N",
+          "ismessage": "Y"
+        },
+        {
+          "id": "4",
+          "messagetype": "失败数据消息",
+          "isinnermail": "Y",
+          "isemail": "Y",
+          "ismessage": "N"
+        }
+      ]
+    }
+  },
+  "channeldata": {
+    "data": {
+      "list": [
+        {
+          "id": "1",
+          "channelcode": "214235436457575",
+          "channelname": "北京贝瑞和康生物技术公司",
+          "socialcode": "2325433645756856868",
+          "channelphone": "18888888888",
+          "channeladdress": "北京市北京区北京花园",
+          "channelstatus": "0",
+          "channelstatusname": "无效"
+        },
+        {
+          "id": "2",
+          "channelcode": "214235436457575",
+          "channelname": "北京贝瑞和康生物技术公司",
+          "socialcode": "2325433645756856868",
+          "channelphone": "18888888888",
+          "channeladdress": "北京市北京区北京花园",
+          "channelstatus": "1",
+          "channelstatusname": "有效"
+        },
+        {
+          "id": "3",
+          "channelcode": "214235436457575",
+          "channelname": "北京贝瑞和康生物技术公司",
+          "socialcode": "2325433645756856868",
+          "channelphone": "18888888888",
+          "channeladdress": "北京市北京区北京花园",
+          "channelstatus": "2",
+          "channelstatusname": "无效"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "accountdata": {
+    "data": {
+      "username": "王小虎",
+      "channelname": "贝瑞华大",
+      "account": "3422766",
+      "useremail": "1301938423@qq.com",
+      "userphone": "13027550970",
+      "userurl": "../image/head.png",
+      "index": "2"
+    }
+  },
+  "billdata": {
+    "data": {
+      "list": [
+        {
+          "billid": "1",
+          "billcode": "账单渠道编码",
+          "billname": "2019年账单",
+          "channelname": "检测公司",
+          "totalnum": "3536",
+          "successnum": "4500",
+          "surrendernum": "100",
+          "resultpremium": "435,534.00",
+          "billtime": "2019-3-01 2019-06-04",
+          "createtime": "2019-4-20",
+          "billstatus": "1",
+          "billstatusname": "待确认"
+        },
+        {
+          "billid": "2",
+          "billcode": "账单渠道",
+          "billname": "2019年账单",
+          "channelname": "检测公司",
+          "totalnum": "3536",
+          "successnum": "4500",
+          "surrendernum": "100",
+          "resultpremium": "435,534.00",
+          "billtime": "2019-3-01 2019-06-04",
+          "createtime": "2019-4-20",
+          "billstatus": "2",
+          "billstatusname": "待结算"
+        },
+        {
+          "billid": "3",
+          "billcode": "账单渠道",
+          "billname": "2019年账单",
+          "channelname": "检测公司",
+          "totalnum": "3536",
+          "successnum": "4500",
+          "surrendernum": "100",
+          "resultpremium": "435,534.00",
+          "billtime": "2019-3-01 2019-06-04",
+          "createtime": "2019-4-20",
+          "billstatus": "3",
+          "billstatusname": "待收款"
+        },
+        {
+          "billid": "4",
+          "billcode": "账单渠道",
+          "billname": "2019年账单",
+          "channelname": "检测公司",
+          "totalnum": "3536",
+          "successnum": "4500",
+          "surrendernum": "100",
+          "resultpremium": "435,534.00",
+          "billtime": "2019-3-01 2019-06-04",
+          "createtime": "2019-4-20",
+          "billstatus": "4",
+          "billstatusname": "已结算"
+        },
+        {
+          "billid": "5",
+          "billcode": "账单渠道",
+          "billname": "2019年账单",
+          "channelname": "检测公司",
+          "totalnum": "3536",
+          "successnum": "4500",
+          "surrendernum": "100",
+          "resultpremium": "435,534.00",
+          "billtime": "2019-3-01 2019-06-04",
+          "createtime": "2019-4-20",
+          "billstatus": "5",
+          "billstatusname": "已回退"
+        },
+        {
+          "billid": "6",
+          "billcode": "账单渠道",
+          "billname": "2019年账单",
+          "channelname": "检测公司",
+          "totalnum": "3536",
+          "successnum": "4500",
+          "surrendernum": "100",
+          "resultpremium": "435,534.00",
+          "billtime": "2019-3-01 2019-06-04",
+          "createtime": "2019-4-20",
+          "billstatus": "6",
+          "billstatusname": "已作废"
+        }
+      ]
+    },
+    "total": 100
+  },
+  "paydata": {
+    "data": {
+      "dateYList": [
+        {
+          "casetype": "假阴案件",
+          "reportnum": "256",
+          "unfilingnum": "452",
+          "finishcasenum": "786",
+          "rejectclaimnum": "764",
+          "claimamount": "785",
+          "residualpronum": "9807"
+        },
+        {
+          "casetype": "假阴性（终止妊娠）",
+          "reportnum": "3235",
+          "unfilingnum": "456454",
+          "finishcasenum": "654656",
+          "rejectclaimnum": "564545",
+          "residualpronum": "454545",
+          "claimamount": "454,544,000"
+        }
+      ],
+      "dateMList": [
+        {
+          "casetype": "阳案件",
+          "reportnum": "256",
+          "unfilingnum": "452",
+          "finishcasenum": "786",
+          "rejectclaimnum": "764",
+          "claimamount": "785",
+          "residualpronum": "9807"
+        },
+        {
+          "casetype": "阳性（终止妊娠）",
+          "reportnum": "3235",
+          "unfilingnum": "456454",
+          "finishcasenum": "654656",
+          "rejectclaimnum": "564545",
+          "residualpronum": "454545",
+          "claimamount": "454,544,000"
+        }
+      ],
+      "dateDList": [
+        {
+          "casetype": "阴案件",
+          "reportnum": "256",
+          "unfilingnum": "452",
+          "finishcasenum": "786",
+          "rejectclaimnum": "764",
+          "claimamount": "785",
+          "residualpronum": "9807"
+        },
+        {
+          "casetype": "阳性（终止妊娠）",
+          "reportnum": "3235",
+          "unfilingnum": "456454",
+          "finishcasenum": "654656",
+          "rejectclaimnum": "564545",
+          "residualpronum": "454545",
+          "claimamount": "454,544,000"
+        }
+      ]
+    }
+  },
+  "casedata1": {
+    "data": {
+      "list": [
+        {
+          "id": "1",
+          "claimno": "1267",
+          "policyno": "785",
+          "personname": "王小虎",
+          "personphone": "13027550970",
+          "personidentityno": "1235644776755",
+          "sampleno": "4543",
+          "reportname": "张丹",
+          "claimtime": "2019-09-12",
+          "claimtype": "阳性",
+          "typecode": "89",
+          "claimstatus": "已结案",
+          "statuscode": "3778",
+          "isfollow": "1"
+        },
+        {
+          "claimno": "2016-sdsdsd05-02",
+          "policyno": "203423423423422",
+          "personname": "王小虎",
+          "personphone": "13342331234",
+          "personidentityno": "13058119701010437X",
+          "sampleno": "13058119",
+          "reportname": "王小虎",
+          "claimtime": "2019-02-03 00:00:00",
+          "claimtype": "假阴性",
+          "claimstatus": "报案中",
+          "isfollow": "0",
+          "id": 454545
+        },
+        {
+          "claimno": "2016-sdsdsd05-02",
+          "policyno": "203423423423422",
+          "personname": "王小虎",
+          "personphone": "13342331234",
+          "personidentityno": "13058119701010437X",
+          "sampleno": "13058119",
+          "reportname": "王小虎",
+          "claimtime": "2019-02-03 00:00:00",
+          "claimtype": "假阴性",
+          "claimstatus": "报案中",
+          "isfollow": "1",
+          "id": 454545
+        }
+      ],
+      "total": 100
+    }
+  },
+  "casedata2": {
+    "data": {
+      "list": [
+        {
+          "id": "1",
+          "claimno": "1267",
+          "policyno": "785",
+          "personname": "王小虎",
+          "personphone": "13027550970",
+          "personidentityno": "1235644776755",
+          "sampleno": "4543",
+          "reportname": "张丹",
+          "claimtime": "2019-09-12",
+          "claimtype": "阳性",
+          "typecode": "89",
+          "claimstatus": "已结案",
+          "statuscode": "3778",
+          "isfollow": "0"
+        },
+        {
+          "claimno": "2016-sdsdsd05-02",
+          "policyno": "203423423423422",
+          "personname": "王小虎",
+          "personphone": "13342331234",
+          "personidentityno": "13058119701010437X",
+          "sampleno": "13058119",
+          "reportname": "王小虎",
+          "claimtime": "2019-02-03 00:00:00",
+          "claimtype": "假阴性",
+          "claimstatus": "报案中",
+          "isfollow": "0",
+          "id": 454545
+        },
+        {
+          "claimno": "2016-sdsdsd05-02",
+          "policyno": "203423423423422",
+          "personname": "王小虎",
+          "personphone": "13342331234",
+          "personidentityno": "13058119701010437X",
+          "sampleno": "13058119",
+          "reportname": "王小虎",
+          "claimtime": "2019-02-03 00:00:00",
+          "claimtype": "假阴性",
+          "claimstatus": "报案中",
+          "isfollow": "1",
+          "id": 454545
+        }
+      ],
+      "total": 100
+    }
+  },
+  "policydata": {
+    "data": {
+      "list": [
+        {
+          "policyid": "1",
+          "policyno": "12546",
+          "batchno": "23763411",
+          "sampleno": "8975442566",
+          "insuredname": "674332133",
+          "insuredidentityno": "785246776557543355",
+          "phone": "1387667988",
+          "productid": "5665",
+          "productname": "贝瑞华大",
+          "importtime": "2019-06-02",
+          "guaranteeperiod": "2019-09-01--2022-09-01",
+          "policystatus": "保障中",
+          "electricpolicyurl": "http://www.baidu.com"
+        },
+        {
+          "policyid": "456as4d56as4",
+          "policyno": "156465as4d564a56s",
+          "batchno": "华大NIPT(4000)版",
+          "sampleno": "4854545",
+          "insuredname": "张三",
+          "insuredidentityno": "52263020011105680X",
+          "phone": "13342331235",
+          "productid": "a4s56d4a6s4d6",
+          "productname": "贝贝nipt4000版",
+          "importtime": "2019-02-02 00:00:00",
+          "guaranteeperiod": "2019-02-02至2019-09-09",
+          "policystatus": "保障中",
+          "electricpolicyurl": "http://www.baidu.com"
+        },
+        {
+          "policyid": "456as4d56as4",
+          "policyno": "156465as4d564a56s",
+          "batchno": "华大NIPT(4000)版",
+          "sampleno": "4854545",
+          "insuredname": "张三",
+          "insuredidentityno": "52263020011105680X",
+          "phone": "13342331235",
+          "productid": "a4s56d4a6s4d6",
+          "productname": "贝贝nipt4000版",
+          "importtime": "2019-02-02 00:00:00",
+          "guaranteeperiod": "2019-02-02至2019-09-09",
+          "policystatus": "保障中",
+          "electricpolicyurl": "http://www.baidu.com"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "faileddata": {
+    "data": {
+      "list": [
+        {
+          "batchno": "5d4s5d45s4d545s4d",
+          "channelname": "贝瑞",
+          "productname": "贝贝NIPT(4000)版",
+          "premium": "32.00",
+          "failnum": "3",
+          "checknum": "0",
+          "doner": "操作员",
+          "createtime": "2019-02-03 00:00:00",
+          "batchid": "4564685456456"
+        },
+        {
+          "batchno": "5d4s5d45s4d545s4d",
+          "channelname": "贝瑞",
+          "productname": "贝贝NIPT(4000)版",
+          "premium": "32.00",
+          "failnum": "3",
+          "checknum": "0",
+          "doner": "操作员",
+          "createtime": "2019-02-03 00:00:00",
+          "batchid": "4564685456456"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "faildetail": {
+    "data": {
+      "detaillist": [
+        {
+          "batchno": "526624",
+          "channelname": "轻松筹",
+          "productname": "alipay_sc01",
+          "premium": "230",
+          "totalnum": "200",
+          "failnum": "20",
+          "sucnum": "180",
+          "totalpremium": "41400",
+          "doner": "liuwl",
+          "createtime": "2019-06-13 15:18:51",
+          "checknum": "0"
+        }
+      ],
+      "undealdetail": [
+        {
+          "dataid": "2",
+          "failreason": "失败原因",
+          "sampleno": "1235677",
+          "personname": "小白",
+          "sampledate": "2019-06-14",
+          "birthdate": "1988-04-30",
+          "identitytypecode": "1",
+          "identitytypename": "身份证",
+          "identityno": "15277698",
+          "phone": "15875598889",
+          "hospital": "北京昌平医院"
+        },
+        {
+          "failreason": "重复投保",
+          "sampleno": "787D8S41V78",
+          "personname": "李大海",
+          "sampledate": "2019-02-02",
+          "birthdate": "1904-02-03",
+          "identitytypename": "身份证",
+          "identityno": "370634199909184552",
+          "phone": "13342331234",
+          "hospital": "北京医院",
+          "constructdes": "比对",
+          "errorcode": "err001"
+        },
+        {
+          "failreason": "重复投保",
+          "sampleno": "787D8S41V78",
+          "personname": "李大海",
+          "sampledate": "2019-02-02",
+          "birthdate": "1904-02-03",
+          "identitytypename": "身份证",
+          "identityno": "370634199909184552",
+          "phone": "13342331234",
+          "hospital": "北京医院",
+          "constructdes": "修改",
+          "errorcode": "err002"
+        },
+        {
+          "failreason": "重复投保",
+          "sampleno": "787D8S41V78",
+          "personname": "李大海",
+          "sampledate": "2019-02-02",
+          "birthdate": "1904-02-03",
+          "identitytypename": "身份证",
+          "identityno": "370634199909184552",
+          "phone": "13342331234",
+          "hospital": "北京医院",
+          "constructdes": "强制投保",
+          "errorcode": "err003"
+        }
+      ],
+      "dealdetail": [
+        {
+          "failreason": "重复投保",
+          "sampleno": "787D8S41V78",
+          "personname": "李大海",
+          "sampledate": "2019-02-02",
+          "birthdate": "1904-02-03",
+          "identitytypename": "身份证",
+          "identityno": "370634199909184552",
+          "phone": "13342331234",
+          "hospital": "北京医院",
+          "checkresult": "重复投保",
+          "remark": "备注信息"
+        },
+        {
+          "failreason": "重复投保",
+          "sampleno": "787D8S41V78",
+          "personname": "李大海",
+          "sampledate": "2019-02-02",
+          "birthdate": "1904-02-03",
+          "identitytypename": "身份证",
+          "identityno": "370634199909184552",
+          "phone": "13342331234",
+          "hospital": "北京医院",
+          "checkresult": "重复投保",
+          "remark": "备注信息备注信息备注信息备注信息备注信息备注信息"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "insureddata": {
+    "data": {
+      "list": [
+        {
+          "batchid": "渠道编码-2019-03-12-190301",
+          "channelname": "贝瑞",
+          "productname": "NIPPT(4000版)",
+          "premium": "23.00",
+          "totalnum": "4577",
+          "failnum": "4577",
+          "sucnum": "4572",
+          "totalpreminum": "32525.00",
+          "doner": "哈哈哈11",
+          "createtime": "2019-03-12 00:00：00"
+        },
+        {
+          "batchid": "渠道编码-2019-03-12-190301",
+          "channelname": "贝瑞",
+          "productname": "NIPPT(4000版)",
+          "premium": "23.00",
+          "totalnum": "4577",
+          "failnum": "4577",
+          "sucnum": "4572",
+          "totalpreminum": "32525.00",
+          "doner": "哈哈哈11",
+          "createtime": "2019-03-12 00:00：00"
+        },
+        {
+          "batchid": "渠道编码-2019-03-12-190301",
+          "channelname": "贝瑞",
+          "productname": "NIPPT(4000版)",
+          "premium": "23.00",
+          "totalnum": "4577",
+          "failnum": "4577",
+          "sucnum": "4572",
+          "totalpreminum": "32525.00",
+          "doner": "哈哈哈11",
+          "createtime": "2019-03-12 00:00：00"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "insureddetail": {
+    "data": {
+      "list": [
+        {
+          "batchno": "2344445",
+          "channelname": "贝瑞华大",
+          "productname": "贝贝",
+          "premium": "23.00",
+          "totalnum": "456670",
+          "failnum": "0",
+          "sucnum": "456670",
+          "totalpremium": "54470",
+          "doner": "小二",
+          "createtime": "2019-01-01 00:00:00"
+        }
+      ]
+    }
+  },
+  "faillist": {
+    "data": {
+      "list": [
+        {
+          "failreason": "证件信息有误",
+          "sampleno": "18TS154CS",
+          "personname": "刘大宇",
+          "sampledate": "2018-05-06",
+          "birthdate": "1990-05-05",
+          "identitytypename": "身份证",
+          "identityno": "1001100199512132020",
+          "phone": "13342331234",
+          "hospital": "地区医院"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "succlist": {
+    "data": {
+      "list": [
+        {
+          "policyno": "12312312312",
+          "sampleno": "18TS154CS",
+          "personname": "刘大宇",
+          "sampledate": "2018-05-06",
+          "birthdate": "1990-05-05",
+          "identitytypename": "身份证",
+          "identityno": "1001100199512132020",
+          "phone": "13342331234",
+          "hospital": "地区医院"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "productlist": {
+    "data": {
+      "list": [
+        {
+          "productcode": "渠道编码+定额方案代码",
+          "productname": "华大NIPT(4000版本)",
+          "channelname": "SDE323-华大基因",
+          "premium": "28.00",
+          "createtime": "2019-02-12",
+          "productstatus": "在售",
+          "id": "4545454545"
+        },
+        {
+          "productcode": "渠道编码+定额方案代码",
+          "productname": "华大NIPT(4000版本)",
+          "channelname": "SDE323-华大基因",
+          "premium": "28.00",
+          "createtime": "2019-02-12",
+          "productstatus": "在售",
+          "id": "4545454545"
+        },
+        {
+          "productcode": "渠道编码+定额方案代码",
+          "productname": "华大NIPT(4000版本)",
+          "channelname": "SDE323-华大基因",
+          "premium": "28.00",
+          "createtime": "2019-02-12",
+          "productstatus": "在售",
+          "id": "4545454545"
+        }
+      ],
+      "total": 100
+    }
+  },
+  "billDetail1": {
+    "data": {
+      "billstatus": "1",
+      "billstatusname": "待确认",
+      "channelname": "北京贝瑞集团有限公司",
+      "billtime": "2019-01-04",
+      "actualreceivable": "78455400",
+      "amountofinvoice": "784300",
+      "totalnum": "89430",
+      "successnum": "789",
+      "invalidatenum": "23",
+      "receivablepremium": "89",
+      "refundablepremiumm": "23",
+      "billno": "567888",
+      "billname": "华大贝瑞",
+      "surrenderlist": [
+        {
+          "annotationno": "2019-12-01-12",
+          "insurano": "321877267",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "name": "倪大红",
+          "sampleno": "3272766",
+          "starttime": "2019-12-12",
+          "effectivetime": "2019-12-12",
+          "invalidatepremium": "100.00 "
+        }
+      ],
+      "batchlist": [
+        {
+          "batchno": "2019-12-01-12",
+          "channelname": "贝贝",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "totalnum": "1000",
+          "successnum": "4999",
+          "totalpremium": "499,134.00",
+          "operator": "ipdc",
+          "importtime": "2019-01-12"
+        }
+      ],
+      "operationrecord": [
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "5",
+          "billstatusname": "已退回",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        },
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "6",
+          "billstatusname": "已作废",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        }
+      ]
+    }
+  },
+  "billDetail2": {
+    "data": {
+      "billstatus": "2",
+      "billstatusname": "待结算",
+      "channelname": "北京贝瑞集团有限公司",
+      "billtime": "2019-01-04",
+      "actualreceivable": "78455400",
+      "amountofinvoice": "784300",
+      "totalnum": "89430",
+      "successnum": "789",
+      "invalidatenum": "23",
+      "receivablepremium": "89",
+      "refundablepremiumm": "23",
+      "billno": "567888",
+      "billname": "华大贝瑞",
+      "surrenderlist": [
+        {
+          "annotationno": "2019-12-01-12",
+          "insurano": "321877267",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "name": "倪大红",
+          "sampleno": "3272766",
+          "starttime": "2019-12-12",
+          "effectivetime": "2019-12-12",
+          "invalidatepremium": "100.00 "
+        }
+      ],
+      "batchlist": [
+        {
+          "batchno": "2019-12-01-12",
+          "channelname": "贝贝",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "totalnum": "1000",
+          "successnum": "4999",
+          "totalpremium": "499,134.00",
+          "operator": "ipdc",
+          "importtime": "2019-01-12"
+        }
+      ],
+      "operationrecord": [
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "5",
+          "billstatusname": "已退回",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        },
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "2",
+          "billstatusname": "待结算",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        }
+      ]
+    }
+  },
+  "billDetail3": {
+    "data": {
+      "billstatus": "3",
+      "billstatusname": "待收款",
+      "channelname": "北京贝瑞集团有限公司",
+      "billtime": "2019-01-04",
+      "actualreceivable": "78455400",
+      "amountofinvoice": "784300",
+      "totalnum": "89430",
+      "successnum": "789",
+      "invalidatenum": "23",
+      "receivablepremium": "89",
+      "refundablepremiumm": "23",
+      "billno": "567888",
+      "billname": "华大贝瑞",
+      "surrenderlist": [
+        {
+          "annotationno": "2019-12-01-12",
+          "insurano": "321877267",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "name": "倪大红",
+          "sampleno": "3272766",
+          "starttime": "2019-12-12",
+          "effectivetime": "2019-12-12",
+          "invalidatepremium": "100.00 "
+        }
+      ],
+      "batchlist": [
+        {
+          "batchno": "2019-12-01-12",
+          "channelname": "贝贝",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "totalnum": "1000",
+          "successnum": "4999",
+          "totalpremium": "499,134.00",
+          "operator": "ipdc",
+          "importtime": "2019-01-12"
+        }
+      ],
+      "operationrecord": [
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "5",
+          "billstatusname": "已退回",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        },
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "2",
+          "billstatusname": "待结算",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        }
+      ]
+    }
+  },
+  "billDetail4": {
+    "data": {
+      "billstatus": "4",
+      "billstatusname": "已结算",
+      "channelname": "北京贝瑞集团有限公司",
+      "billtime": "2019-01-04",
+      "actualreceivable": "78455400",
+      "amountofinvoice": "784300",
+      "totalnum": "89430",
+      "successnum": "789",
+      "invalidatenum": "23",
+      "receivablepremium": "89",
+      "refundablepremiumm": "23",
+      "billno": "567888",
+      "billname": "华大贝瑞",
+      "surrenderlist": [
+        {
+          "annotationno": "2019-12-01-12",
+          "insurano": "321877267",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "name": "倪大红",
+          "sampleno": "3272766",
+          "starttime": "2019-12-12",
+          "effectivetime": "2019-12-12",
+          "invalidatepremium": "100.00 "
+        }
+      ],
+      "batchlist": [
+        {
+          "batchno": "2019-12-01-12",
+          "channelname": "贝贝",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "totalnum": "1000",
+          "successnum": "4999",
+          "totalpremium": "499,134.00",
+          "operator": "ipdc",
+          "importtime": "2019-01-12"
+        }
+      ],
+      "operationrecord": [
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "5",
+          "billstatusname": "已退回",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        },
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "2",
+          "billstatusname": "待结算",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        }
+      ]
+    }
+  },
+  "billDetail5": {
+    "data": {
+      "billstatus": "5",
+      "billstatusname": "已退回",
+      "channelname": "北京贝瑞集团有限公司",
+      "billtime": "2019-01-04",
+      "actualreceivable": "78455400",
+      "amountofinvoice": "784300",
+      "totalnum": "89430",
+      "successnum": "789",
+      "invalidatenum": "23",
+      "receivablepremium": "89",
+      "refundablepremiumm": "23",
+      "billno": "567888",
+      "billname": "华大贝瑞",
+      "surrenderlist": [
+        {
+          "annotationno": "2019-12-01-12",
+          "insurano": "321877267",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "name": "倪大红",
+          "sampleno": "3272766",
+          "starttime": "2019-12-12",
+          "effectivetime": "2019-12-12",
+          "invalidatepremium": "100.00 "
+        }
+      ],
+      "batchlist": [
+        {
+          "batchno": "2019-12-01-12",
+          "channelname": "贝贝",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "totalnum": "5000",
+          "successnum": "4999",
+          "totalpremium": "499,534.00",
+          "operator": "ipdc",
+          "importtime": "2019-01-12"
+        }
+      ],
+      "operationrecord": [
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "5",
+          "billstatusname": "已退回",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        },
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "6",
+          "billstatusname": "已作废",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        }
+      ]
+    }
+  },
+  "billDetail6": {
+    "data": {
+      "billstatus": "6",
+      "billstatusname": "已作废",
+      "channelname": "北京贝瑞集团有限公司",
+      "billtime": "2019-01-04",
+      "actualreceivable": "78455400",
+      "amountofinvoice": "784300",
+      "totalnum": "89430",
+      "successnum": "789",
+      "invalidatenum": "23",
+      "receivablepremium": "89",
+      "refundablepremiumm": "23",
+      "billno": "567888",
+      "billname": "华大贝瑞",
+      "surrenderlist": [
+        {
+          "annotationno": "2019-12-01-12",
+          "insurano": "321877267",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "name": "倪大红",
+          "sampleno": "3272766",
+          "starttime": "2019-12-12",
+          "effectivetime": "2019-12-12",
+          "invalidatepremium": "100.00 "
+        }
+      ],
+      "batchlist": [
+        {
+          "batchno": "2019-12-01-12",
+          "channelname": "贝贝",
+          "productname": "贝贝NPT",
+          "perpremium": "100.00",
+          "totalnum": "5000",
+          "successnum": "4999",
+          "totalpremium": "499,534.00",
+          "operator": "ipdc",
+          "importtime": "2019-01-12"
+        }
+      ],
+      "operationrecord": [
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "5",
+          "billstatusname": "已退回",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        },
+        {
+          "channelname": "贝瑞",
+          "username": "张三",
+          "billstatus": "6",
+          "billstatusname": "已作废",
+          "content": "回退回退",
+          "createtime": "2019-06-04 00:00:00",
+          "userurl": "../image/head.png"
+        }
+      ]
+    }
+  },
+  "productDetail": {
+    "data": {
+      "productname": "NIPPT(4000版)",
+      "channelname": "北京贝瑞和康生物技术公司",
+      "comboname": "生物理疗",
+      "productstatus": "已启用",
+      "premium": "",
+      "list": [
+        {
+          "id": "1",
+          "dutycode": "895",
+          "dutyname": "华大贝瑞",
+          "dutypremium": "6755.00",
+          "limitcoverage": "765.99",
+          "dutycoverage": "5432.00",
+          "nopaycoverage": "5432.00"
+        },
+        {
+          "id": "1",
+          "dutycode": "895",
+          "dutyname": "华大贝瑞",
+          "dutypremium": "6755.00",
+          "dutycoverage": "",
+          "limitcoverage": "765.99",
+          "nopaycoverage": "5432.00"
+        }
+      ]
+    }
+  },
+  "caseDetail": {
+    "data": {
+      "claimno": "785",
+      "claimstatus": "已结案",
+      "statuscode": "1",
+      "claiminfo": {
+        "policyno": "7996",
+        "underwritingdate": "2019-01-2",
+        "claimtime": "2019-07-09",
+        "insuratype": "车险",
+        "personname": "王小虎",
+        "reporttime": "2019-01-02",
+        "channelname": "北京贝瑞",
+        "personidentityno": "4127228767866767562",
+        "reportphone": "1302700775657",
+        "businessowneragency": "北京协和",
+        "nation": "汉",
+        "reportway": "打电话"
+      },
+      "diagnoseinfo": {
+        "sampledate": "2019-09-29",
+        "secvisithospital": "北京中科院",
+        "abnormalchromosome": "yy",
+        "samplecode": "8779",
+        "sectestdate": "2019-11-08",
+        "exceptiontype": "Y",
+        "visithospital": "协和",
+        "sampletype": "抽血",
+        "ischimeric": "hahhyy",
+        "reporttype": "阴性",
+        "othersampledesc": "哈哈",
+        "pregnancycondition": "妊娠",
+        "niftyresult": "nihsjj结果",
+        "secmethond": "抽血",
+        "isexport": "是",
+        "isdiagnosis": "诊断",
+        "secresultdesc": "哈哈哈",
+        "karyotypic": "不缺热",
+        "isfit": "不一致"
+      },
+      "reportinfo": {
+        "compensationresult": "嘿嘿",
+        "invoiceamount": "7866",
+        "questionpartremark": "不缺少底部的给",
+        "closingtime": "2019-27-7",
+        "bankname": "中国人民银行",
+        "insuraliability": "全保",
+        "filingamount": "78950",
+        "bankaccount": "67383863788",
+        "reportremark": "烧伤",
+        "compensationamount": "6778",
+        "claimspaytime": "2019-05-03",
+        "paymentsituation": "刷卡",
+        "reportnum": "2",
+        "rankbackinfo": "已结算"
+      }
+    }
+  },
+  "unReaddata": {
+    "data": {
+      "list": [
+        {
+          "messageid": "45486456",
+          "messagecontent": "贝瑞和康生物技术有限公司2019年3月账单已生成，请及时核对乙方有不同和信息受打击看见氨基酸的骄傲圣诞节爱神的箭阿斯加德是教大家圣诞节啊氨基酸大家圣诞节阿萨德",
+          "messagetype": "账单消息",
+          "messagetypecode": "messagebill",
+          "messagetime": "2019-05-06 09:05:44"
+        },
+        {
+          "messageid": "45486456",
+          "messagecontent": "贝瑞和康生物技术有限公司2019年3月账单已生成，请及时核对乙方有不同和信息受打击看见氨基酸的骄傲圣诞节爱神的箭阿斯加德是教大家圣诞节啊氨基酸大家圣诞节阿萨德",
+          "messagetype": "投保信息",
+          "messagetypecode": "messagepolicy",
+          "messagetime": "2019-05-06 09:05:44"
+        },
+        {
+          "messageid": "45486456",
+          "messagecontent": "贝瑞和康生物技术有限公司2019年3月账单已生成，请及时核对乙方有不同和信息受打击看见氨基酸的骄傲圣诞节爱神的箭阿斯加德是教大家圣诞节啊氨基酸大家圣诞节阿萨德",
+          "messagetype": "案件消息",
+          "messagetypecode": "messagepay",
+          "messagetime": "2019-05-06 09:05:44"
+        },
+        {
+          "messageid": "45486456",
+          "messagecontent": "贝瑞和康生物技术有限公司2019年3月账单已生成，请及时核对乙方有不同和信息受打击看见氨基酸的骄傲圣诞节爱神的箭阿斯加德是教大家圣诞节啊氨基酸大家圣诞节阿萨德",
+          "messagetype": "错误数据核对",
+          "messagetypecode": "messagefaildata",
+          "messagetime": "2019-05-06 09:05:44"
+        }
+      ]
+    }
+  }
+}
