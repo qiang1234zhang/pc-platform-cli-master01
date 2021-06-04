@@ -1,10 +1,10 @@
 <template>
     <div class='container'>
+        <div class="box5">1000px</div>
         <div class="box1">30px字体</div>
         <div class="box2">30px字体</div>
         <div class="box3">30px字体</div>
         <div class="box4">800px</div>
-        <div class="box5">1000px</div>
 <div class="block">
     <span class="demonstration">默认</span>
     <el-date-picker style="width:400px"
